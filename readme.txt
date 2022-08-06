@@ -13,5 +13,9 @@ This plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file na
 
 == Changelog ==
 
+= 1.0.1 =
+* Added build.sh script.
+* If the uploading file already has the "xxxxxxxx-" prefix, no randomization is applied.
+
 = 1.0.0 =
 * Initial Release.
