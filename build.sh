@@ -6,6 +6,7 @@ VERSION=`cat $SCRIPT_DIR/filename-randomizer.php | grep 'Version:' | sed 's/.* /
 echo "Building v$VERSION release"
 
 pushd $SCRIPT_DIR
+rm filename-randomizer-v$VERSION.zip
 mkdir filename-randomizer
 cp `git ls-files` ./filename-randomizer
 zip -r filename-randomizer-v$VERSION.zip ./filename-randomizer
