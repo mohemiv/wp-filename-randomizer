@@ -6,4 +6,4 @@ This is a security plugin designed to prevent unauthorized access to materials t
 
 Features
 ---------------------------
-The plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file name will be kept, only the prefix adds randomization.
+The plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file name will be kept, only the prefix adds randomization. The prefix may contain only [a-f0-9] characters to increase readability of the file name.
