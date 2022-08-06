@@ -8,13 +8,19 @@ Author URI:   https://twitter.com/_mohemiv
 
 Filename Randomizer adds randomization to file names when uploading files into WordPress.
 
+This is a security plugin designed to prevent unauthorized access to materials that are not published yet or are not intended to be published.
+
 == Description ==
-This plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file name will be kept, only the prefix adds randomization.
+The plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file name will be kept, only the prefix adds randomization. The prefix may contain only [a-f0-9] characters to increase the readability of the final file name.
+
+* Without Plugin: preview.png
+* With Plugin: a0fb4cbe-preview.png
 
 == Changelog ==
 
-= 1.0.2a =
+= 1.0.2 =
 * Excluding unnecessary files from builds
+* Enforcing 16-character randomization prefix for Windows systems. For *nix it's 8 characters.
 
 = 1.0.1 =
 * Added build.sh script.
