@@ -7,7 +7,7 @@ echo "Building v$VERSION release"
 
 pushd $SCRIPT_DIR
 mkdir filename-randomizer
-cp LICENSE *.* ./filename-randomizer
+cp `git ls-files` ./filename-randomizer
 zip -r filename-randomizer-v$VERSION.zip ./filename-randomizer
 rm -rf filename-randomizer
 popd
