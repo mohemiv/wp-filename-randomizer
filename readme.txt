@@ -18,8 +18,11 @@ The plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file nam
 
 == Changelog ==
 
+= 1.0.3 =
+* Randomizing prefixes for reuploaded files as well.
+
 = 1.0.2 =
-* Excluding unnecessary files from builds
+* Excluding unnecessary files from builds.
 * Enforcing 16-character randomization prefix for Windows systems. For *nix it's 8 characters.
 
 = 1.0.1 =

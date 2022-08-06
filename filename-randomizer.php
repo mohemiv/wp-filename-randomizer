@@ -3,7 +3,7 @@
  * Plugin Name:  Filename Randomizer
  * Description:  Filename Randomizer adds randomization to file names when uploading files into WordPress.
  * Plugin URI:   https://github.com/mohemiv/wp-filename-randomizer
- * Version:      1.0.2
+ * Version:      1.0.3
  * Requires PHP: 7.0
  * License:      ISC License (ISC)
  * License URI:  https://opensource.org/licenses/ISC
@@ -21,7 +21,7 @@ if (strtoupper(substr(PHP_OS, 0, 3)) == "WIN") {
 
 function filename_randomizer__randomize_name($filename) {
     if (preg_match('/^[a-f0-9]{'. FILENAME_RANDOMIZER_RANDOMIZE_LEN . '}-.*/', $filename)) {
-        return $filename;
+        $filename = substr($filename, FILENAME_RANDOMIZER_RANDOMIZE_LEN + 1);
     }
 
     $key = sha1(random_bytes(32));
