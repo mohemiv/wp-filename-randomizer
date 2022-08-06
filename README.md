@@ -1,4 +1,4 @@
-Filename Randomizer
+Filename Randomizer for WordPress
 ========
 Filename Randomizer adds randomization to file names when uploading files into [WordPress](https://www.wordpress.org/).
 
