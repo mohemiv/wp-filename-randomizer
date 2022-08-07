@@ -1,14 +1,15 @@
 <?php
 /**
- * Plugin Name:  Filename Randomizer
- * Description:  Filename Randomizer adds randomization to file names when uploading files into WordPress.
- * Plugin URI:   https://github.com/mohemiv/wp-filename-randomizer
- * Version:      1.0.3
- * Requires PHP: 7.0
- * License:      ISC License (ISC)
- * License URI:  https://opensource.org/licenses/ISC
- * Author:       Arseniy Sharoglazov
- * Author URI:   https://twitter.com/_mohemiv
+ * Plugin Name:       Filename Randomizer
+ * Description:       Filename Randomizer adds randomization to file names when uploading files into WordPress.
+ * Plugin URI:        https://github.com/mohemiv/wp-filename-randomizer
+ * Version:           1.0.3
+ * Requires at least: 4.4
+ * Requires PHP:      7.0
+ * License:           ISC License (ISC)
+ * License URI:       https://opensource.org/licenses/ISC
+ * Author:            Arseniy Sharoglazov
+ * Author URI:        https://twitter.com/_mohemiv
  */
 
 defined('ABSPATH') or die();
