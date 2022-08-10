@@ -1,12 +1,14 @@
 === Filename Randomizer ===
-Tags: file type, upload, randomization
-Requires PHP: 7.0
-Tested up to: 6.0.1
-Stable tag:   1.1.0
-License:      ISC License (ISC)
-License URI:  https://opensource.org/licenses/ISC
-Author:       Arseniy Sharoglazov
-Author URI:   https://twitter.com/_mohemiv
+Tags: files, upload, randomization, security
+Requires PHP:      7.0
+Requires at least: 4.4
+Tested up to:      6.0.1
+Stable tag:        1.1.0
+License:           ISC License (ISC)
+License URI:       https://opensource.org/licenses/ISC
+Author:            Arseniy Sharoglazov
+Author URI:        https://twitter.com/_mohemiv
+Plugin URI:        https://github.com/mohemiv/wp-filename-randomizer
 
 Filename Randomizer adds randomization to file names when uploading files into WordPress.
 
