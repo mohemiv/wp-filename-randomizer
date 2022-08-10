@@ -22,6 +22,9 @@ The plugin adds "xxxxxxxx-" prefix for each uploaded file. The original file nam
 
 == Changelog ==
 
+= 1.1.0 =
+* Minor metadata changes to comply with WordPress.org requirements
+
 = 1.0.3 =
 * Randomizing prefixes for reuploaded files as well.
 
