@@ -1,6 +1,7 @@
 === Filename Randomizer ===
 Tags: file type, upload, randomization
 Requires PHP: 7.0
+Tested up to: 6.0.1
 License:      ISC License (ISC)
 License URI:  https://opensource.org/licenses/ISC
 Author:       Arseniy Sharoglazov
