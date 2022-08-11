@@ -4,7 +4,7 @@ Filename Randomizer adds randomization to file names when uploading files into W
 
 This is a security plugin designed to prevent unauthorized access to materials that are not published yet or are not intended to be published.
 
-This plugin in WordPress.org: https://wordpress.org/plugins/filename-randomizer/
+This plugin is available on WordPress.org: https://wordpress.org/plugins/filename-randomizer/
 
 Features
 ---------------------------
